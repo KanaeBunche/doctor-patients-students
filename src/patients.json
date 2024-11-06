@@ -1,0 +1,83 @@
+[
+    {
+      "name": "Dr. John Doe",
+      "age": 45,
+      "height": "5'10\"",
+      "eyeColor": "Brown",
+      "weight": "180 lbs",
+      "bloodType": "O+"
+    },
+    {
+      "name": "Dr. Jane Smith",
+      "age": 38,
+      "height": "5'5\"",
+      "eyeColor": "Blue",
+      "weight": "135 lbs",
+      "bloodType": "A-"
+    },
+    {
+      "name": "Dr. Alice Johnson",
+      "age": 50,
+      "height": "5'7\"",
+      "eyeColor": "Green",
+      "weight": "160 lbs",
+      "bloodType": "B+"
+    },
+    {
+      "name": "Dr. Michael Lee",
+      "age": 40,
+      "height": "5'9\"",
+      "eyeColor": "Hazel",
+      "weight": "175 lbs",
+      "bloodType": "AB+"
+    },
+    {
+      "name": "Dr. Emily Davis",
+      "age": 32,
+      "height": "5'4\"",
+      "eyeColor": "Brown",
+      "weight": "140 lbs",
+      "bloodType": "O-"
+    },
+    {
+      "name": "Dr. Robert Brown",
+      "age": 60,
+      "height": "6'0\"",
+      "eyeColor": "Gray",
+      "weight": "200 lbs",
+      "bloodType": "A+"
+    },
+    {
+      "name": "Dr. Lisa Wilson",
+      "age": 35,
+      "height": "5'8\"",
+      "eyeColor": "Blue",
+      "weight": "130 lbs",
+      "bloodType": "B-"
+    },
+    {
+      "name": "Dr. David Clark",
+      "age": 55,
+      "height": "5'11\"",
+      "eyeColor": "Brown",
+      "weight": "185 lbs",
+      "bloodType": "AB-"
+    },
+    {
+      "name": "Dr. Sarah Moore",
+      "age": 28,
+      "height": "5'6\"",
+      "eyeColor": "Green",
+      "weight": "125 lbs",
+      "bloodType": "O+"
+    },
+    {
+      "name": "Dr. William Taylor",
+      "age": 42,
+      "height": "6'2\"",
+      "eyeColor": "Brown",
+      "weight": "190 lbs",
+      "bloodType": "A-"
+    }
+  ]
+  

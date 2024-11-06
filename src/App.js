@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from 'react';
+import patientsData from './patients.json';
+import './App.css'; // Import the CSS file
 
-function App() {
+const App = () => {
+  const [patients, setPatients] = useState([]);
+
+  useEffect(() => {
+    // Fix: Set the patients data here
+  }, []);
+
+  if (patients.length === 0) {
+    return <div className="loading">Loading patients...</div>;
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app-container">
+      <h1 className="title">{/* Add Title*/}</h1>
+      <div className="patients-container">
+        {/* Fix: Map over the patients array and display each patient's details */}
+      </div>
     </div>
   );
-}
+};
 
 export default App;

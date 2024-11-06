@@ -1,38 +1,71 @@
-.App {
+/* General styling for the body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f7f6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Main container for the app */
+.app-container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+}
+
+.title {
   text-align: center;
+  color: #333;
+  font-size: 2rem;
+  margin-bottom: 30px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Patients container (horizontal layout) */
+.patients-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
 }
 
-.App-link {
-  color: #61dafb;
+/* Patient card styling */
+.patient-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  text-align: center;
+  transition: transform 0.3s ease;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.patient-card:hover {
+  transform: scale(1.05);
+}
+
+/* Patient name */
+.patient-name {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* Text styling for the details */
+.patient-card p {
+  font-size: 0.9rem;
+  color: #666;
+  margin: 5px 0;
+  text-align: left;
+}
+
+/* Loading message */
+.loading {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #888;
 }
